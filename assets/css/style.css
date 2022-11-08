@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;       
+}
+
+.navigation{
+   padding-left: 320px;
+   padding-right: 320px;
+    background-color: #333333;
+    
+}
+
+
+
+.top-container{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    background-color:#FF7000 ;
+    justify-content: space-evenly;
+
+}
+
+.top-container .box1{
+    width: 450px;
+    height: 21px;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+}
+.top-container .box2{
+    display: flex;
+   
+    justify-content: space-around;
+    width: 220px;
+    height: 55px;
+   
+}
+
+
+
+
+.top-container .box2 .image{
+    display: flex;
+   
+     align-items: center;
+     justify-content: center;
+    width: 55px;
+
+}
+
+.top-container .box2 .image:hover{
+
+    background-color: #333333;
+    cursor:pointer;
+   
+
+}
+
+.top-container .box2 img{
+    width: 24px;
+    
+    
+   
+}
+
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 106px;
+}
+.logo-container .cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 58px;
+    width: 1170px;
+    
+    
+}
+
+
+.logo-container .cont .box-logo{
+    display: flex;
+    width: 147px;
+    height: 53px;
+    
+
+}
+
+.logo-container .cont .box-mail{
+    display: flex;
+    align-items: center;
+    width: 219px;
+    height: 49px;
+    
+
+ 
+
+}
+
+.logo-container .cont .box-mail .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49px;
+    height: 49px;
+    background-color: #F8F8F8;
+    border-radius: 90%;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.logo-container .cont .box-mail .circle img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.logo-container .cont .box-mail .text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: roboto;
+    font-size: 15px;
+    height: 50px;
+ 
+}
+
+.logo-container .cont .box-mail .text-box .text1{
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.logo-container .cont .box-mail .text-box .text2{
+    font-weight: 400;
+    line-height: 18px;
+    color: #BABABA;
+}
+
+
+.logo-container .cont .box-mail:hover{
+    cursor: pointer;
+ 
+    border-radius: 5px;
+    color:#FF7000;
+    
+}
+
+.contact-box{
+    display: flex;
+    align-items: center;
+
+}
+.logo-container .cont .donate{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 165px;
+    height: 55px;
+    background-color:#FF7000;
+    border-radius: 5px;
+}
+
+
+.logo-container .cont .donate:hover{
+background-color: #333333;
+cursor:pointer;
+
+}
+
+
+.carousel-control-prev-icon {
+   width: 30px;
+   height: 50px;
+    
+  
+   
+}
+
+
+
+.round-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#333333;
+    width: 80px;
+    height: 80px;
+    border-radius: 90%;
+}
+.round-button:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FF7000;
+    width: 80px;
+    height: 80px;
+    border-radius: 90%;
+}
+
+
+.carousel-control-prev {
+opacity: 1;
+}
+.carousel-control-prev:hover {
+    opacity: 1;
+    }
+
+.carousel-control-next {
+opacity: 1;
+}
+.carousel-control-next:hover {
+    opacity: 1;
+    }
+
+    
+
+
+.img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    background-color: #FF7000;
+    width: 80%;
+    height: 100%;
+    /* z-index:99; */
+}
+
+.img-text .cont{
+    position:absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+    z-index: 99;
+    width: 455px;
+    height: 304px;
+    z-index:99;
+
+    
+    
+}
+
+.img-text .cont h1{
+color: white;
+font-family: Lora;
+size: 54px;
+font-weight: 700;
+
+}
+.img-text .cont p{
+    color: white;
+    font-family: roboto;
+    size: 16px;
+    font-weight: 400;
+    }
+.img-text .cont .donate{
+        font-family: roboto;
+        font-weight: 400;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 165px;
+        height: 55px;
+        background-color:#FF7000;
+        border-radius: 5px;
+    }
+.img-text .cont .donate:hover{
+    background-color:#333333;
+    cursor: pointer;
+    border: 1px solid white;
+    
+}
+.container-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1276px;
+    
+}
+
+.container-cards .cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 1017px;
+    width: 1170px;
+}
+
+
+.container-cards .cont .btn-cause{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 165px;
+    height: 55px;
+    background-color:#FF7000;
+    border-radius: 5px;
+}
+.container-cards .cont .btn-cause:hover{
+background-color: #333333;
+cursor: pointer;
+
+}
+
+.container-cards .cont .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ 
+    width: 871px;
+    height: 167px;
+}
+
+.container-cards .cont .text .line{
+    background-color: #FF7000;
+    width: 100px;
+    height: 3px;
+}
+
+.container-cards .cont .text h1{
+    color: #333333;
+font-family: Lora;
+size: 54px;
+font-weight: 700;
+
+}
+
+.container-cards .cont .text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: roboto;
+    color: #666666;
+    margin: 0;
+}
+
+.card-title{
+    font-family: lora;
+    font-size: 21px;
+    font-weight: 700;
+
+}
+
+.card-text{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+}
+
+.card-body{
+    padding: 33px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card{
+    --bs-card-border-color: none;
+    cursor: pointer;
+}
+
+.progress{
+    height: 6px;
+    background-color: #999999;
+
+}
+.progress-bar{
+    background-color:#FF7000;
+   
+}
+
+.price .textx{
+    display: flex;
+    justify-content: center;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.price .textx h1{
+    font-family: lora;
+    font-weight: 700;
+    font-size: 20px;
+    height: 28px;
+    color: #FF7000;
+    margin: 0;
+}
+
+.price .textx p{
+    margin-bottom: 0;
+    font-family: roboto;
+    margin-left: 14px ;
+    color: #666666;
+    
+}
+.price .proc p{
+    margin-bottom: 0;
+    font-family: roboto;
+
+    color: #666666;
+    
+}
